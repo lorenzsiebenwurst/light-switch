@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease-in-out background-color;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  margin: 12rem 0;
+  border: 5px solid #333;
+  border-radius: 3px;
+  font-family: monospace;
+  background-color: snow;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.button--borderSwitch {
+  color: snow;
+  border: 5px solid snow;
+  background-color: #333;
+  box-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 20px yellow;
+}
+
+.body--dark {
+  background-color: #333;
+  transition: 1s ease-in-out background-color;
+}
